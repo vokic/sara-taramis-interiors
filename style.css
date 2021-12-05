@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  border: 20px solid rgb(245, 245, 245);
+}
+
+a:link {
+  text-decoration: none;
+  color: #474747;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #474747;
+}
+
+a:hover {
+  color: darkgray;
+  transition: 0.3s;
+}
+/* .menu {
+  height: 180px;
+  background: lightblue;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+} */
+
+.topnav {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #474747;
+  overflow: hidden;
+  transition: 0.3s;
+  padding-left: 50px;
+  line-height: 50px;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 36px;
+  color: #f1f1f1;
+  display: flex;
+  transition: 0.5s;
+  width: 300px;
+}
+
+.topnav a:hover {
+  color: #707070;
+}
+
+.button-close {
+  position: absolute;
+  top: 60px;
+  right: 150px;
+  margin-left: 50px;
+  font-size: 65px;
+  cursor: pointer;
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+.button-close:hover {
+  color: #707070;
+}
+
+.button-open {
+  padding-top: 50px;
+  padding-right: 80px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.button-open:hover {
+  color: #999999;
+  transition: 0.5s;
+}
+
+@media screen and (max-height: 450px) {
+  .topnav {
+    padding-top: 15px;
+  }
+  .topnav a {
+    font-size: 18px;
+  }
+}
+
+#main {
+  transition: margin-top 0.5s 0.2s;
+  padding: 16px;
+}
+
+.mini-menu {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.description {
+  margin-left: 280px;
+  margin-top: 30px;
+  color: white;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 213px;
+}
+
+.nav {
+  margin-right: 50px;
+  margin-top: 80px;
+}
+
+.logo {
+  /* margin-top: 50px; */
+  margin-left: 80px;
+}
+
+.top-bar {
+  /* background: lightgrey; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lead {
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
+
+.products {
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  margin-bottom: 50px;
+  width: 350px;
+}
+
+.product-img img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.product-display {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+}
+
+.prod-description {
+  padding-top: 50px;
+  width: 40%;
+  padding-right: 90px;
+}
+
+.gallery {
+  width: 60%;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+footer {
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
