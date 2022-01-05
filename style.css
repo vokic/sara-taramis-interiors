@@ -114,7 +114,7 @@ a:hover {
 
 @media screen and (max-height: 450px) {
   .topnav {
-    padding-top: 15px;
+  /* padding-top: 15px; */
   }
   .topnav a {
     font-size: 18px;
@@ -310,6 +310,8 @@ footer{
   .logo {
     width: auto;
     display: block;
+    margin-left: 100px;
+    margin-top: 40px;
   }
 
   .logo img{
