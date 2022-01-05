@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
@@ -59,10 +60,10 @@
         </div>
       </div>
     </header>
-    <a href="index.html"><p class="back">&#8592;</p></a>        
+    <a href="index.html"><i class='bx bx-arrow-back back'></i></a>        
     <div class="product-display">
       
-      <div class="prod-description">
+      <div class="prod-description" data-aos="fade-right">
       
         <div class="long-name" >Long Product Name Goes Here</div>
         <br /><br />
@@ -93,17 +94,17 @@
         <p>Contact Us</p>
       </div>
       <div class="gallery">
-        <img src="assets/product-1.jpg" alt="" />
+        <img src="assets/product-1.jpg" alt="" data-aos="zoom-in"  >
         <br /><br />
-        <img src="assets/product-1.jpg" alt="" />
+        <img src="assets/product-1.jpg" alt=""  data-aos="zoom-in" />
         <br /><br />
-        <img src="assets/product-1.jpg" alt="" />
+        <img src="assets/product-1.jpg" alt=""  data-aos="zoom-in" />
         <br /><br />
-        <img src="assets/product-1.jpg" alt="" />
+        <img src="assets/product-1.jpg" alt=""  data-aos="zoom-in" />
         <br /><br />
-        <img src="assets/product-1.jpg" alt="" />
+        <img src="assets/product-1.jpg" alt=""  data-aos="zoom-in" />
         <br /><br />
-        <img src="assets/product-1.jpg" alt="" />
+        <img src="assets/product-1.jpg" alt=""  data-aos="zoom-in" />
       </div>
     </div>
 
@@ -120,5 +121,11 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,}
+      );
+    </script>
   </body>
 </html>
