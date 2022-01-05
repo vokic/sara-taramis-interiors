@@ -327,6 +327,10 @@ footer{
   padding-right: 40px;
 
 }
+
+.topnav-left ul {
+  padding-left: 0;
+}
  
  }
 
