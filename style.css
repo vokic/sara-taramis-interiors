@@ -315,6 +315,16 @@ footer{
   .logo img{
     width: 180px;
   }
+
+  .button-close {
+    top: 43px;
+    right: 38px;
+}
+
+.button-open {
+  padding-right: 40px;
+
+}
  
  }
 
