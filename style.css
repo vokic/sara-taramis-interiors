@@ -98,7 +98,8 @@ a:hover {
 
 .button-open {
   /* padding-top: 0; */
-  padding-right: 80px;
+  position:absolute;
+  right: 100px;
   color: #474747;
   font-size: 36px;
   cursor: pointer;
@@ -150,7 +151,6 @@ a:hover {
 }
 
 .logo {
-  /* margin-top: 50px; */
   margin-left: 40px;
 }
 
@@ -159,7 +159,6 @@ a:hover {
 }
 
 .top-bar {
-  /* background: lightgrey; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -310,8 +309,10 @@ footer{
   .logo {
     width: auto;
     display: block;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .logo img{
@@ -324,7 +325,10 @@ footer{
 }
 
 .button-open {
-  padding-right: 40px;
+  /* padding-right: 40px; */
+  position: absolute;
+  top:35px;
+  right: 40px;
 
 }
 
