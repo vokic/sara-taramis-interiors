@@ -39,7 +39,7 @@ a:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #474747;
+  background-color: #a0a0a0;
   overflow: hidden;
   transition: 0.3s;
   /* padding-left: 50px; */
@@ -219,6 +219,10 @@ a:hover {
   padding-bottom: 10px;
 }
 
+.categories{
+  padding-right: 30px;
+}
+
 footer {
   height: 100px;
   padding-top: 50px;
@@ -232,6 +236,52 @@ footer{
 
 .footer a{
   color: #474747;
+}
+
+/* filter */
+
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+ border: none;
+  outline: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  
+  border-bottom: 1px solid grey;
+  
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  border-bottom: 1px solid grey;
+
 }
 
 /* Tablet screens */
