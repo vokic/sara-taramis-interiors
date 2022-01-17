@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 body {
@@ -39,7 +39,7 @@ a:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #474747;
+  background-color: #949494;
   overflow: hidden;
   transition: 0.3s;
   /* padding-left: 50px; */
@@ -83,10 +83,14 @@ a:hover {
 }
 
 .top-bar {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    margin-left: -50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.categories {
+  margin-left: 60px;
 }
 
 .button-close {
@@ -105,7 +109,7 @@ a:hover {
 
 .button-open {
   /* padding-top: 0; */
-  position:absolute;
+  position: absolute;
   right: 100px;
   color: #474747;
   font-size: 36px;
@@ -122,7 +126,7 @@ a:hover {
 
 @media screen and (max-height: 450px) {
   .topnav {
-  /* padding-top: 15px; */
+    /* padding-top: 15px; */
   }
   .topnav a {
     font-size: 18px;
@@ -166,16 +170,16 @@ a:hover {
 }
 
 .top-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: -50px;
+  /*  display: flex;
+  flex-direction: column; */
+  justify-content: space-between;
+  margin-left: -50px;
 }
 
 .lead {
   margin-left: 75px;
   margin-bottom: 20px;
-  color:#474747;
+  color: #474747;
 }
 
 .products {
@@ -214,9 +218,8 @@ a:hover {
 
 .long-name {
   font-size: 24px;
-  
 }
-.back{
+.back {
   font-size: 30px;
   color: #474747;
   margin-left: 20px;
@@ -231,7 +234,7 @@ a:hover {
   padding-bottom: 10px;
 }
 
-.categories{
+.categories {
   padding-right: 30px;
 }
 
@@ -242,11 +245,11 @@ footer {
   background-color: rgb(245, 245, 245);
 }
 
-footer{
+footer {
   color: #474747;
 }
 
-.footer a{
+.footer a {
   color: #474747;
 }
 
@@ -270,7 +273,7 @@ footer{
 
 /* Style the buttons */
 .btn {
- border: none;
+  border: none;
   outline: none;
   padding: 5px 16px;
   background-color: transparent;
@@ -280,15 +283,12 @@ footer{
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
-  
   border-bottom: 1px solid grey;
-  
 }
 
 /* Add a dark background to the active button */
 .btn.active {
   border-bottom: 1px solid grey;
-
 }
 
 /* Tablet screens */
@@ -300,44 +300,43 @@ footer{
     grid-gap: 20px;
     padding: 10px;
   }
-  
+
   .top-bar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: -50px;
-}
-  
+  }
+
   .topnav-right {
     display: none;
-   }
+  }
 
-   .topnav-left {
-    margin:auto;
+  .topnav-left {
+    margin: auto;
     text-align: center;
-    }
+  }
 
-    .topnav-left ul li a {
-      text-decoration: none;
-      color: #f1f1f1;
-      transition: 0.5s;
-      width: 300px;
-      font-size: 35px;
-      display: inline-block;
-      text-align: center;
-      line-height: 60px;
-    }
-    
-    .topnav-left ul {
-      padding-top: 10px;
-      padding-left: 30px;
-      list-style: none;
- 
-    }
+  .topnav-left ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    transition: 0.5s;
+    width: 300px;
+    font-size: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+  }
 
-    body {
-      border: none;
-    }
+  .topnav-left ul {
+    padding-top: 10px;
+    padding-left: 30px;
+    list-style: none;
+  }
+
+  body {
+    border: none;
+  }
 }
 
 /* Mobile screens */
@@ -358,14 +357,14 @@ footer{
     display: flex;
   }
  */
-  
+
   .top-bar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: -50px;
-}
- 
+  }
+
   .products {
     display: grid;
     grid-template-columns: 1fr;
@@ -388,26 +387,23 @@ footer{
     margin-right: auto;
   }
 
-  .logo img{
+  .logo img {
     width: 180px;
   }
 
   .button-close {
     top: 43px;
     right: 38px;
+  }
+
+  .button-open {
+    /* padding-right: 40px; */
+    position: absolute;
+    top: 35px;
+    right: 40px;
+  }
+
+  .topnav-left ul {
+    padding-left: 0;
+  }
 }
-
-.button-open {
-  /* padding-right: 40px; */
-  position: absolute;
-  top:35px;
-  right: 40px;
-
-}
-
-.topnav-left ul {
-  padding-left: 0;
-}
- 
- }
-
