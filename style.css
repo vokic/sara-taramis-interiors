@@ -82,6 +82,12 @@ a:hover {
   font-size: 16px;
 }
 
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+
 .button-close {
   color: white;
   font-size: 36px;
