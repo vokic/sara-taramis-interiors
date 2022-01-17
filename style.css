@@ -84,6 +84,7 @@ a:hover {
 
 .top-bar {
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
     margin-left: -50px;
 }
