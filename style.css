@@ -39,7 +39,7 @@ a:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #a0a0a0;
+  background-color: #474747;
   overflow: hidden;
   transition: 0.3s;
   /* padding-left: 50px; */
@@ -183,6 +183,12 @@ a:hover {
   font-size: x-large;
 }
 
+.filterDiv img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 .product img {
   width: 100%;
   margin-bottom: 20px;
@@ -245,15 +251,12 @@ footer{
 }
 
 .filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
+  /* background-color: lightblue; */
+  width: 100%;
   margin: 2px;
   display: none; /* Hidden by default */
 }
+
 
 /* The "show" class is added to the filtered elements */
 .show {
@@ -264,11 +267,10 @@ footer{
 .btn {
  border: none;
   outline: none;
-  padding: 5px 10px;
+  padding: 5px 16px;
   background-color: transparent;
   cursor: pointer;
   font-size: 18px;
-  margin-right: 10px;
 }
 
 /* Add a light grey background on mouse-over */
