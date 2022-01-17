@@ -154,22 +154,21 @@ a:hover {
   margin-left: 40px;
 }
 
-.logo img{
+.logo img {
   width: 200px;
 }
 
 .top-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -50px;
 }
 
 .lead {
   margin-left: 75px;
   margin-bottom: 20px;
   color:#474747;
-
 }
 
 .products {
@@ -257,7 +256,6 @@ footer{
   display: none; /* Hidden by default */
 }
 
-
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
@@ -295,6 +293,14 @@ footer{
     grid-gap: 20px;
     padding: 10px;
   }
+  
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+  
   .topnav-right {
     display: none;
    }
@@ -345,6 +351,14 @@ footer{
     display: flex;
   }
  */
+  
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+ 
   .products {
     display: grid;
     grid-template-columns: 1fr;
