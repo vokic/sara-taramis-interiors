@@ -1,3 +1,3 @@
 # sara-vintage-furniture-store
 
-<img src="https://i.imgur.com/oM7TtTx.jpeg" width="100%">
+<img src="https://i.imgur.com/2lA9XQQ.png" width="100%">
