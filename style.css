@@ -332,6 +332,10 @@ footer{
     padding-right: 40px;
   }
 
+  .posts{
+    padding: 0;
+  }
+
   .topnav-right {
     display: none;
    }
@@ -395,6 +399,10 @@ footer{
     grid-gap: 30px;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .posts{
+    padding: 0;
   }
 
   .product-display {
