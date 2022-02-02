@@ -387,14 +387,11 @@ footer {
   .about {
     display: grid;
     grid-template-columns: 1fr;
-    font-size: 1.8rem;
-
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
-
-  
- 
-
 }
 
 /* Mobile screens */
@@ -472,7 +469,9 @@ footer {
   .about {
     display: grid;
     grid-template-columns: 1fr;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-right: 5px;
 
   }
 
