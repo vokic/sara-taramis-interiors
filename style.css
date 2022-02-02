@@ -389,11 +389,20 @@ footer {
   .about {
     display: grid;
     grid-template-columns: 1fr;
-    font-size: 1rem;
-    margin-left: 5px;
-    margin-right: 5px;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
+.about-left{
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.about-right{
+  margin: 5px;
+}
+
 }
 
 /* Mobile screens */
@@ -472,10 +481,19 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 1.2rem;
-    line-height: 1;
-    margin-left: 5px;
-    margin-right: 5px;
+    line-height: 1.1;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+  }
 
+  .about-left{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-right{
+    margin: 0;
   }
 
 }
