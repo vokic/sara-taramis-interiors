@@ -82,12 +82,12 @@ a:hover {
   font-size: 16px;
 }
 
-.blog-body{
+.blog-body {
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.blog-body p{
+.blog-body p {
   line-height: 1.8;
   font-size: larger;
 }
@@ -108,7 +108,7 @@ a:hover {
 
 .button-open {
   /* padding-top: 0; */
-  position:absolute;
+  position: absolute;
   right: 100px;
   color: #474747;
   font-size: 36px;
@@ -123,9 +123,35 @@ a:hover {
   transition: 0.5s;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: space-between;
+  color: #474747;
+  margin-bottom: 50px;
+}
+
+.about-left {
+
+margin: 20px;
+}
+
+.about-left img {
+  width: 100%;
+  
+} 
+
+.about-right {
+  margin: 20px;
+}
+
 @media screen and (max-height: 450px) {
   .topnav {
-  /* padding-top: 15px; */
+    /* padding-top: 15px; */
   }
   .topnav a {
     font-size: 18px;
@@ -164,7 +190,7 @@ a:hover {
   margin-left: 40px;
 }
 
-.logo img{
+.logo img {
   width: 200px;
 }
 
@@ -178,8 +204,7 @@ a:hover {
 .lead {
   margin-left: 75px;
   margin-bottom: 20px;
-  color:#474747;
-
+  color: #474747;
 }
 
 .products {
@@ -189,23 +214,21 @@ a:hover {
   padding: 20px;
 }
 
+.blog-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
-  .blog-posts {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-
-  .posts{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-
+.posts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
 .p-name {
   font-size: x-large;
@@ -236,9 +259,8 @@ a:hover {
 
 .long-name {
   font-size: 24px;
-  
 }
-.back{
+.back {
   font-size: 30px;
   color: #474747;
   margin-left: 20px;
@@ -253,7 +275,7 @@ a:hover {
   padding-bottom: 10px;
 }
 
-.categories{
+.categories {
   padding-right: 30px;
 }
 
@@ -264,11 +286,11 @@ footer {
   background-color: rgb(245, 245, 245);
 }
 
-footer{
+footer {
   color: #474747;
 }
 
-.footer a{
+.footer a {
   color: #474747;
 }
 
@@ -285,7 +307,6 @@ footer{
   display: none; /* Hidden by default */
 }
 
-
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
@@ -293,7 +314,7 @@ footer{
 
 /* Style the buttons */
 .btn {
- border: none;
+  border: none;
   outline: none;
   padding: 5px 16px;
   background-color: transparent;
@@ -303,15 +324,12 @@ footer{
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
-  
   border-bottom: 1px solid grey;
-  
 }
 
 /* Add a dark background to the active button */
 .btn.active {
   border-bottom: 1px solid grey;
-
 }
 
 /* Tablet screens */
@@ -332,40 +350,51 @@ footer{
     padding-right: 40px;
   }
 
-  .posts{
+  .posts {
     padding: 0;
   }
 
   .topnav-right {
     display: none;
-   }
+  }
 
-   .topnav-left {
-    margin:auto;
+  .topnav-left {
+    margin: auto;
     text-align: center;
-    }
+  }
 
-    .topnav-left ul li a {
-      text-decoration: none;
-      color: #f1f1f1;
-      transition: 0.5s;
-      width: 300px;
-      font-size: 35px;
-      display: inline-block;
-      text-align: center;
-      line-height: 60px;
-    }
-    
-    .topnav-left ul {
-      padding-top: 10px;
-      padding-left: 30px;
-      list-style: none;
+  .topnav-left ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    transition: 0.5s;
+    width: 300px;
+    font-size: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .topnav-left ul {
+    padding-top: 10px;
+    padding-left: 30px;
+    list-style: none;
+  }
+
+  body {
+    border: none;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.8rem;
+
+  }
+  
+
+  
  
-    }
 
-    body {
-      border: none;
-    }
 }
 
 /* Mobile screens */
@@ -401,7 +430,7 @@ footer{
     padding-right: 40px;
   }
 
-  .posts{
+  .posts {
     padding: 0;
   }
 
@@ -420,26 +449,31 @@ footer{
     margin-right: auto;
   }
 
-  .logo img{
+  .logo img {
     width: 180px;
   }
 
   .button-close {
     top: 43px;
     right: 38px;
+  }
+
+  .button-open {
+    /* padding-right: 40px; */
+    position: absolute;
+    top: 35px;
+    right: 40px;
+  }
+
+  .topnav-left ul {
+    padding-left: 0;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.8rem;
+
+  }
+
 }
-
-.button-open {
-  /* padding-right: 40px; */
-  position: absolute;
-  top:35px;
-  right: 40px;
-
-}
-
-.topnav-left ul {
-  padding-left: 0;
-}
- 
- }
-

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/flexmasonry/dist/flexmasonry.css">
+
+
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+
+    <title>Taramis Interiors - About</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="main"></div>
+
+        <div class="top">
+            <div class="logo">
+                <a href="/index.html"><img src="assets/taramis-logo.jpg" alt="" /></a>
+            </div>
+            <div class="button-open" id="button-open" onclick="openNav()">
+                &#9776;
+            </div>
+            <!-- ako je levi slide in, height se menja u width 0 -->
+            <div id="myTopnav" class="topnav" style="height: 0">
+                <div href="javascript:void(0)" id="button-close" class="button-close" onclick="closeNav()">
+                    &times;
+                </div>
+                <div class="topnav-left">
+                    <ul>
+                        <li><a href="#">Our Collection</a></li>
+                        <li><a href="/journal.html">Journal</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="topnav-right">
+                    <p>Taramis Interiors</p>
+                    <br />
+                    <div class="desc">
+                        Online gallery for vintage design furniture based in Berlin.
+                        info@taramis.net
+                    </div>
+
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="top-bar">
+            <div class="lead">
+                <div class="lead-heading">About</div>
+                <a href="/index.html"><i class='bx bx-arrow-back back'></i></a>
+            </div>
+            <!--            <div class="categories">
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> All</button>
+                    <button class="btn" onclick="filterSelection('lighting')"> Lighting</button>
+                    <button class="btn" onclick="filterSelection('seating')"> Seating</button>
+                    <button class="btn" onclick="filterSelection('tables')"> Tables</button>
+                    <button class="btn" onclick="filterSelection('storage')"> Storage</button>
+                    <button class="btn" onclick="filterSelection('other')"> Other</button>
+                    <button class="btn" onclick="filterSelection('archive')"> Archive</button>
+                </div>
+            </div> -->
+        </div>
+        </div>
+    </header>
+
+    <div class="about">
+        
+        <div class="about-left">
+        <img src="/assets/about.jpg" alt="">
+    </div>
+    
+    <div class="about-right">
+        <p>
+            <i>
+                I believe in creating our treasure trove of extraordinary objects, a modern version of the 16th Century "Wunderkammer" mixing everything from artefacts to artworks and furniture, in an intuitive way. I was born in Paris and was greatly influenced by the spirit of the city. When I discovered the eclectic homes of Elsa Schiaparelli and YSL & Pierre Bergé I fell in love with this aesthetic.
+                <br><br>
+                After receiving a History Degree from King's College University in London, I worked at Sotheby's and went on to have a career in high fashion. Always a treasure hunter and whilst collecting art and vintage design myself an opportunity presented itself to work for an art collector in London which inspired me for this
+                project. The glamour of the 1970's has always been an inspiration and most of the objects I pick have a Hollywood Regency allure to them along with of course the inevitable Mid Century period.
+                <br><br>
+                Italian, French and American Mid Century furniture and objects are the muses of Taramis Interiors.
+                <br><br>
+                Always on the lookout for special original items and eternally searching for beauty...
+            </i>
+        </p>
+    </div>
+
+
+
+    </div>
+
+
+
+    <!--  <div class="insta-widget">
+      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/c20f3ac6625e543f8a8895fafbd124b5.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+    </div>  -->
+
+    <footer>
+        <h4 class="footer">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+            <a href="#">Email</a>
+        </h4>
+        <br />
+        <p>
+            Taramis Interiors © Copyright 2001 <br />
+            Contact us info@taramis.net
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
+    <script>
+        FlexMasonry.init('.grid');
+    </script>
+
+</body>
+
+</html>
