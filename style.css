@@ -127,7 +127,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 1.3rem;
-  line-height: 1.5;
+  line-height: 2.5rem;
   margin-left: 50px;
   margin-right: 50px;
   align-items: space-between;
@@ -138,6 +138,7 @@ a:hover {
 .about-left {
 
 margin: 20px;
+/* background-color: red; */
 }
 
 .about-left img {
