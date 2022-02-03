@@ -389,9 +389,10 @@ footer {
   .about {
     display: grid;
     grid-template-columns: 1fr;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-left: 15px;
     margin-right: 15px;
+    line-height: 1.2;
   }
   
 .about-left{
@@ -481,7 +482,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 1.2rem;
-    line-height: 1.1;
+    line-height: 1.8;
     margin-left: 15px;
     margin-right: 15px;
     
