@@ -1,3 +1,3 @@
-# sara-vintage-furniture-store
+# taramis.net complete website with hosting
 
-<img src="https://i.imgur.com/8ngrfT9.jpg" width="100%">
+<img src="https://i.imgur.com/GOsBMZ1.jpg">
