@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+
+  <title>Taramis Interiors</title>
+</head>
+
+<body>
+  <header>
+    <div id="main"></div>
+
+    <div class="top">
+      <div class="logo">
+        <a href="/index.html"><img src="/assets/taramis-logo.jpg" alt="" /></a>
+      </div>
+      <div class="button-open" id="button-open" onclick="openNav()">
+        &#9776;
+      </div>
+      <!-- ako je levi slide in, height se menja u width 0 -->
+      <div id="myTopnav" class="topnav" style="height: 0">
+        <div href="javascript:void(0)" id="button-close" class="button-close" onclick="closeNav()">
+          &times;
+        </div>
+        <div class="topnav-left">
+          <ul>
+            <li><a href="/index.html">Our Collection</a></li>
+            <li><a href="/journal.html">Journal</a></li>
+            <li><a href="mailto:info@taramis.net" target="_blank">Contact</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="topnav-right">
+          <p>Taramis Vintage</p>
+          <br />
+   <div class="desc">
+            Online Gallery for vintage design furniture and decorative objects.
+            <a href="mailto:info@taramis.net" target="_blank">info@taramis.net</a>
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-bar">
+      <div class="lead">
+        <div class="lead-heading">Our Collection</div>
+        <p>Are you looking for something special? <a href="mailto:info@taramis.net" target="_blank">Contact Us</a> </p>
+      </div>
+      <!--       <div class="categories">
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> All</button>
+        <button class="btn" onclick="filterSelection('lighting')"> Lighting</button>
+        <button class="btn" onclick="filterSelection('seating')"> Seating</button>
+        <button class="btn" onclick="filterSelection('tables')"> Tables</button>
+        <button class="btn" onclick="filterSelection('storage')"> Storage</button>
+        <button class="btn" onclick="filterSelection('other')"> Other</button>
+        <button class="btn" onclick="filterSelection('archive')"> Archive</button>
+      </div>
+    </div> -->
+    </div>
+    </div>
+  </header>
+
+  <a href="/index.html"><i class='bx bx-arrow-back back'></i></a>
+  <div class="product-display">
+
+    <div class="prod-description" data-aos="fade-right">
+      <div class="long-name">1970’s Murano Chandelier Toni Zuccheri for Venini 
+      </div>
+      <br /><br />
+      <p>
+        1980’s Italian vintage Venini Murano chandelier, 48 large glass tubes in star shape, beautiful colours amber, opal silk baby blue and transparent. 150cm with chain and 65 cm diameter. Timeless appeal due to transcend quality of colours. Sculptures of light. 
+      </p>
+      <br />
+      <p>L 65 x H 150 cm</p>
+      <br /><br />
+      <p>
+        Price<br />
+        Upon request</p>
+      <br /><br /><br /><br />
+      <a href="mailto: info@taramis.net" target="_blank">
+        <p>Contact Us</p>
+      </a>
+    </div>
+    <div class="gallery">
+      <img src="/products/art-21/art-21_1.jpg" alt="" data-aos="zoom-in">
+      <br /><br />
+      <img src="/products/art-21/art-21_2.jpg" alt="" data-aos="zoom-in">
+      <br /><br />
+      <img src="/products/art-21/art-21_3.jpg" alt="" data-aos="zoom-in"> <br /><br />
+      <img src="/products/art-21/art-21_4.jpg" alt="" data-aos="zoom-in"> <br /><br />
+      <img src="/products/art-21/art-21_5.jpg" alt="" data-aos="zoom-in"> <br /><br />
+    </div>
+  </div>
+
+  <footer>
+    <h4 class="footer">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Email</a>
+    </h4>
+    <br />
+    <p>
+      Taramis Vintage Furniture © Copyright 2021 <br />
+      <a href="mailto:info@taramis.net" target="_blank">Contact us</a>
+    </p>
+  </footer>
+
+  <script src="/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 500,
+    }
+    );
+  </script>
+</body>
+
+</html>
